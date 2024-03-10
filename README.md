@@ -4,6 +4,7 @@
 
 Created branch: main branch created
 Created branch: 1.0-hero created
+Created branch: 2.0-navbar
 
 ### NEXT JS INFORMATION
 

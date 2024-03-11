@@ -6,6 +6,7 @@ Created branch: main branch created
 Created branch: 1.0-hero created
 Created branch: 2.0-navbar
 Created branch: 3.0-gallery
+Created branch: 4.0-instagram
 
 ### NEXT JS INFORMATION
 

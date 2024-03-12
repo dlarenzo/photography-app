@@ -1,15 +1,25 @@
 import React from "react";
-import igImg1 from "../public/igImg1.jpg";
+import IgImg1 from "../../../public/images/igImg1.jpeg";
+import IgImg2 from "../../../public/images/igImg2.jpeg";
+import IgImg3 from "../../../public/images/igImg3.jpeg";
+import IgImg4 from "../../../public/images/igImg4.jpeg";
+import IgImg5 from "../../../public/images/igImg5.jpeg";
+import IgImg6 from "../../../public/images/igImg6.jpeg";
+
 import InstagramImg from "./InstagramImg";
 
 const Instagram = () => {
   return (
-    <div>
-      <p>Follow me on Instagram</p>
-      <p>@LighthousePhotography</p>
-      <div>
-        <InstagramImg src={socialImg} alt="/" />
-        const house = {igImg1}
+    <div className="max-w-[1240px] mx-auto text-center py-24">
+      <p className="text-2xl font-bold">Follow me on Instagram</p>
+      <p className="py-4">@LighthousePhotography</p>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4">
+        <InstagramImg socialImg={IgImg1} alt="/" />
+        <InstagramImg socialImg={IgImg2} alt="/" />
+        <InstagramImg socialImg={IgImg3} alt="/" />
+        <InstagramImg socialImg={IgImg4} alt="/" />
+        <InstagramImg socialImg={IgImg5} alt="/" />
+        <InstagramImg socialImg={IgImg6} alt="/" />
       </div>
     </div>
   );

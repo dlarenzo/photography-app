@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <Hero
         heading="Lighthouse Photography"
-        message="Capturing moments today tha will wow your heart tomorrow."
+        message="Capturing moments today that will wow you tomorrow."
       />
       <Slider slides={SliderData} />
       <Instagram />
